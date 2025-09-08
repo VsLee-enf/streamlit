@@ -1,5 +1,17 @@
 streamlit==1.49.1
-matplotlib==3.10.6
 pandas==2.3.2
 numpy==2.3.2
+
+# 시각화
+plotly==5.22.0
+matplotlib==3.10.6
 seaborn==0.13.2
+
+# 유틸
+python-dateutil==2.9.0.post0
+
+# 선택(있으면 trendline='ols' 사용 가능)
+statsmodels==0.14.2
+
+# 선택(matplotlib에서 한글 쓸 때만)
+koreanize-matplotlib==0.1.1
